@@ -19,6 +19,7 @@ Diese mobile Anwendung wurde mit React Native und TypeScript entwickelt und best
     - Audioaufnahmen herunterladen (funktioniert leider nur auf Android)
     - Audioaufnahmen löschen
 - **Speicherung**: Jede Aufnahme wird mit einem eindeutigen Namen gespeichert und kann später abgerufen werden.
+- Leider habe ich es nicht geschaft eine gute API zu finden um Speach to Text zu machen, desshalb habe ich den Text für die Aufnahmen hardcoded.
 
 <img src="./Images/Aufnehmen.png" alt="Landing Screen" width="300"/>
 
@@ -34,7 +35,7 @@ Diese mobile Anwendung wurde mit React Native und TypeScript entwickelt und best
 ### 4. Präsentationen
 - **Beschreibung**: Benutzer können hier ihre erstellten Präsentationen sehen, teilen oder löschen.
 - **Funktionalitäten**:
-    - Präsentationen anzeigen
+    - Präsentationen anzeigen (Die Präsentationen sind aktuell noch hardcoded und werden nicht dynamisch generiert)
     - Präsentationen teilen (funktioniert leider nur auf Android)
     - Präsentationen löschen
 - **Speicherung**: Präsentationen sind HTML-Inhalte, die in der Firestore-Datenbank gespeichert werden. Jede Präsentation ist mit der Benutzer-ID verknüpft, sodass nur der erstellende Benutzer darauf zugreifen kann.
