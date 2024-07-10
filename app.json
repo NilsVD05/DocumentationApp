@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "Documentation App",
     "name": "DocumentationApp",
     "slug": "DocumentationApp",
     "version": "1.0.0",
